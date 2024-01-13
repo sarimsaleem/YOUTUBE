@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assests/styling/youtube.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-bars fa-lg" style="color: #0e0d0d;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img class="navabr-logo"
+                                src="./assests/images/youtube-logo.png" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <input class="form-control me-2 navbar-searchbar " type="search" placeholder="Search"
+                            aria-label="Search">
+                    </li>
+                    <li class="nav-item mic">
+                        <i class="fa-solid fa-microphone fa-flip-horizontal fa-lg" style="color: #000000;"></i>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <ul class="navbar-nav">
+                        <li class="nav-item camera">
+                            <i class="fa-solid fa-video fa-lg" style="color: #000000;"></i>
+                        </li>
+
+                        <li class="nav-item bell">
+                            <i class="fa-solid fa-bell fa-lg" style="color: #000000;"></i>
+                        </li>
+
+                        <li class="nav-item profile">
+                            you
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="parent">
+                <div class="sidebar">
+                    <ul class="icon-container">
+                        <li class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" class="icon"
+                                enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                                focusable="false">
+                                <path
+                                    d="m12 4.44 7 6.09V20h-4v-6H9v6H5v-9.47l7-6.09m0-1.32-8 6.96V21h6v-6h4v6h6V10.08l-8-6.96z">
+                                </path>
+                            </svg> </li>
+
+                        <li class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" class="icon" height="24"
+                                viewBox="0 0 24 24" width="24" focusable="false">
+                                <path
+                                    d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
+                                </path>
+                            </svg></li>
+                        <li class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" class="icon"
+                                enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                                focusable="false">
+                                <path d="M20 7H4V6h16v1zm2 2v12H2V9h20zm-7 6-5-3v6l5-3zm2-12H7v1h10V3z"></path>
+                            </svg></li>
+                        <li class="side-icons"><svg xmlns="http://www.w3.org/2000/svg" class="icon"
+                                enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                                focusable="false">
+                                <path d="M4 20h14v1H3V6h1v14zM21 3v15H6V3h15zm-4 7.5L11 7v7l6-3.5z"></path>
+                            </svg></li>
+                        <li class="side-icons"><var><svg xmlns="http://www.w3.org/2000/svg" class="icon" height="24"
+                                    viewBox="0 0 24 24" width="24" focusable="false">
+                                    <path
+                                        d="M17 18v1H6v-1h11zm-.5-6.6-.7-.7-3.8 3.7V4h-1v10.4l-3.8-3.8-.7.7 5 5 5-4.9z">
+                                    </path>
+                                </svg></var></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="container-fluid ">
+                        <div class="row">
+                            <h1 class="h11">Latest</h1>
+                            <div class="col-md-4">
+                                <div class="card">
+                               <a href="https://www.youtube.com/watch?v=HhesaQXLuRY"><img src="./assests/images/1.jpg" class="card-img-top" alt="..."></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Breaking bad</h5>
+                                        <p class="card-text">a mild-mannered high school chemistry teacher named Walter White (played by Cranston) who discovers that he has inoperable lung cancer. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                <a href="https://www.youtube.com/watch?v=_InqQJRqGW4"><img src="./assests/images/2.avif" class="card-img-top" alt="..."></a> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Money Heist</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                  <a href="https://www.youtube.com/watch?v=8FkLRUJj-o0">  <img src="./assests/images/3.webp" class="card-img-top" alt="..."></a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Animal</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid .connt-mar">
+        <div class="row">
+            <div class="parent2">
+                <div class="container-fluid">
+                    <div class="row hjka">
+                        <div class="col-md-4">
+                            <div class="card">
+                            <a href="https://www.youtube.com/watch?v=M-7v9bP10-U">  <img src="./assests/images/4.jpg" class="card-img-top" alt="..."></a>  
+                                <div class="card-body">
+                                    <h5 class="card-title">Peaky Blinder</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                             <a href="https://www.youtube.com/watch?v=7KPyunRIjr0">  <img src="./assests/images/5.jpg" class="card-img-top" alt="..."></a> 
+
+                                <div class="card-body">
+                                    <h5 class="card-title">songs</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a href="https://www.youtube.com/watch?v=jLNrvmXboj8"><img src="./assests/images/6.png"
+                                        class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Stranger Thingss</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
